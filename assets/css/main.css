@@ -26,6 +26,9 @@
 }
 
 .tk-gyst-variable {
+	font-size: 20pt;
+	color: black;
+	font-weight: bold;
     font-family: "gyst-variable", sans-serif;
 }
 
