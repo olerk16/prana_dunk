@@ -684,7 +684,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #BB6839;
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -741,7 +741,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #A75E33;
 		}
 
 		input[type="button"]:active,
@@ -749,7 +749,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #88bc82;
+			background-color: #BB6839;
 		}
 
 		input[type="button"].style2,
@@ -1452,6 +1452,7 @@ input, select, textarea {
 		width: 45em;
 		max-width: 100%;
 		margin: 0 auto 2em auto;
+		gap: 10px;
 	}
 
 		.gallery article {
@@ -1463,7 +1464,7 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			width: 50%;
+			width: calc(50% - 10px); /* Adjust to account for gap */
 			position: relative;
 			opacity: 1.0;
 		}
