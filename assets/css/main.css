@@ -14,6 +14,10 @@
     font-stretch: normal;
 }
 
+#mc-embedded-subscribe {
+	background-color: #455E49 !important;
+}
+
 @font-face {
     font-family: "gyst-variable";
     src: url("https://use.typekit.net/af/01a8ab/000000000000000077508a99/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),
@@ -30,35 +34,19 @@
     width: 100%;
 }
 
+/* Style for the container */
+.box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px; /* Rounds the container corners */
+    margin-bottom: 30px; /* Adds space between the container and the footer */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Background color for Contact Us section */
 #contact {
-    background-color: #455E49; /* Dark green color for the background */
+    background-color: #D1B9A3; /* Dark green color for the background */
     color: white; /* Ensure text is visible on the dark background */
-}
-
-/* Background color for Contact Us section */
-#contact {
-    background-color: #455E49; /* Dark green background for the contact section */
-    color: white; /* Ensure text is visible */
-}
-
-/* Force styling for the contact button */
-#contact #mc_embed_signup #mc-embedded-subscribe {
-    background-color: #455E49 !important; /* Dark green button */
-    color: white !important; /* White text for the button */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-	text-align: center; /* Horizontally center the text */
-    display: inline-block; /* Ensures the button behaves like a block */
-    line-height: normal; /* Ensures proper vertical centering */
-    vertical-align: middle !important; /* Aligns the text vertically */
-}
-
-/* Hover effect */
-#contact #mc_embed_signup #mc-embedded-subscribe:hover {
-    background-color: #3B5041 !important; /* Slightly darker green for hover effect */
 }
 
 .tk-gyst-variable {
@@ -723,7 +711,6 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #455E49;
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -2247,7 +2234,7 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: #39454b;
+		background: #455E49;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
@@ -2344,7 +2331,7 @@ input, select, textarea {
 
 	#contact {
 		overflow: hidden;
-		padding-bottom: 0;
+		padding-bottom: 12px;
 	}
 
 		#contact .box {
