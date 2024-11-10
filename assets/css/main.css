@@ -49,6 +49,10 @@
     color: white; /* Ensure text is visible on the dark background */
 }
 
+.white {
+	color: white !important;
+}
+
 .tk-gyst-variable {
 	font-size: 18pt;
 	color: black;
@@ -2101,7 +2105,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background:#A75E33;
 			}
 
 			.main.style3.secondary {
